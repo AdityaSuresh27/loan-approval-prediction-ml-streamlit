@@ -29,4 +29,5 @@ Financial institutions face challenges in processing loan applications quickly a
 
 ---
 
-Happy coding guys
+Happy coding guys, 
+P.S. When you run train_model.py the pkl files are made and accuracy will be given as output, and then you just run 'streamlit run main.py' in cmd.
