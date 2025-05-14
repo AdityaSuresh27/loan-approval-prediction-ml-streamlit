@@ -19,7 +19,7 @@ df['LoanAmount'] = df['LoanAmount'].fillna(df['LoanAmount'].mean())
 df['Loan_Amount_Term'] = df['Loan_Amount_Term'].fillna(df['Loan_Amount_Term'].mode()[0])
 df['Credit_History'] = df['Credit_History'].fillna(1.0)
 
-# Drop Loan_ID because to us, it is basically useless for training or testing data
+# Drop Loan_ID, because to us, it is basically useless for training or testing data
 if 'Loan_ID' in df.columns:
     df = df.drop(columns=["Loan_ID"])
 
